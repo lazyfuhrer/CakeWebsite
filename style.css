@@ -10,7 +10,7 @@
 }
 html
 {
-    fon-size:15px;
+    fon-size:17px;
 }
 section
 
@@ -42,6 +42,7 @@ header .navigate ul
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding-left: 5px;
 }
 header .navigate ul li
 {
@@ -95,6 +96,7 @@ header .navigate ul li a:hover
     letter-spacing: .1rem;
     color:lightgray;
     background:rgb(191, 109, 121);
+    button-radius: 4px;
     
 }
 .home-btn button i
@@ -102,6 +104,10 @@ header .navigate ul li a:hover
     margin-left: .5rem;
     font-size: 1rem;
     text-align: center;
+}
+.home-btn button:hover
+{
+    background-color: chocolate;
 }
 .about
 {
